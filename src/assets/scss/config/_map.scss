@@ -1,0 +1,43 @@
+$colors: (
+  primary: (
+    100: hsl(24, 74%, 80%),
+    200: hsl(24, 74%, 70%),
+    300: hsl(24, 74%, 58%),
+  ),
+  secondary: (
+    100: hsl(39, 53%, 70%),
+    200: hsl(39, 53%, 55%),
+    300: hsl(39, 53%, 30%),
+  ),
+  neutral: (
+    100: hsl(0, 0%, 100%),
+    200: hsl(0, 0%, 90%),
+    300: hsl(0, 0%, 25%),
+    400: hsl(0, 0%, 10%),
+    500: hsl(0, 0%, 0%),
+  ),
+);
+$breakpoints: (
+  xs: 300px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+$container: (
+  xs: 100%,
+  sm: 54rem,
+  md: 72rem,
+  lg: 96rem,
+  xl: 114rem,
+  xxl: 132rem,
+);
+$spacing: (
+  t: top,
+  r: right,
+  b: bottom,
+  l: left,
+  x: inline,
+  y: block,
+);
